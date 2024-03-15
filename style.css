@@ -1,0 +1,145 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
+
+#sidebar {
+    display: grid;
+    background-color: #1992D4;
+    grid-template-rows: 1fr 3fr 5fr;
+}
+
+#sidebar-dashboard {
+    padding-top: 10px;
+}
+
+#sidebar-item {
+    padding-left: 10px;
+    margin: auto;    
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+#content {
+    background-color: #E2E8F0;
+}
+
+#header {
+    display: grid;
+    background-color: #FFFFFF;
+    grid-template-rows: 1fr 1fr;
+}
+
+#header-top {
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+    margin: 20px;
+}
+
+#header-profile {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+#header-profile img {
+    width: 40px;
+    margin: auto;
+}
+
+#header-profile h3 {
+    margin: auto;
+}
+
+#search-bar {
+    background-color: #E2E8F0;
+    border-radius: 10px;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+}
+
+#header-bottom {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+}
+
+#header-bottom-profile {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+
+#header-bottom img {
+    width: 50px;
+}
+
+#header-bottom button {
+    background-color: #1992D4;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+}
+
+#header-bottom-buttons {
+    margin: auto;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#projects, #social {
+    margin: 20px;
+}
+
+#announcements {
+    margin-bottom: 20px;
+}
+
+#announcement-card *, #trending-card * {
+    margin: 20px;
+}
+
+hr {
+    width: 85%;
+    margin: auto;
+    opacity: 0.25;
+}
+
+#project-cards {
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#project-card, #announcement-card, #trending-card {
+    background-color: white;
+    padding: 5px;
+}
+
+#project-card {
+    margin: 5px;
+    border-left: 5px solid #EBBA47;
+}
+
+#project-card p, #announcement-card p, #trending-card p {
+    font-size: 12px;
+    color: grey;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid; */
+    font-family:Arial, Helvetica, sans-serif;
+}
